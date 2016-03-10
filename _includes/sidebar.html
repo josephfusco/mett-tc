@@ -1,0 +1,28 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+      <h1>METT-TC</h1>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/oakoc/">OAKOC</a>
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/tlp/">TLP</a>
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/mdmp/">MDMP</a>
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/landnav/">Land Nav</a>
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/mett-tc/">METT-TC</a>
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}/opord/">OPORD</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>&copy; {{ site.time | date: '%Y' }} metttc.com</p>
+  </div>
+
+  <div class="sidebar-item">
+      <img src="{{site.baseurl}}/public/us-flag.svg" style="border-radius: 0;">
+  </div>
+</div>

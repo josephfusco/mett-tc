@@ -1,0 +1,29 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               METT-TC
+tagline:             'What is it?'
+description:         'After receiving an essential task and purpose, either in a warning order or the OPORD, the platoon leader can then begin the analysis of his own mission. He may use a refined product to better visualize the interrelationships of the [&hellip;]'
+url:                 http://metttc.com
+baseurl:             ''
+
+# About/contact
+author:
+  name:              Joseph Fusco
+  url:               https://twitter.com/heyfusco
+  email:             hello@josephfus.co
+
+# Custom vars
+version:             2.0.0
+
+# Styles
+sass:
+  sass_dir: public/css
+  style: :compressed
+
+# Plugins
+gems:
+  - jekyll-redirect-from
