@@ -5,4 +5,4 @@ redirect_from:
   - /opord/mission-2/
 ---
 
-Who, What Where, When, and (most importantly) Why?
+Who, What, Where, When, and (most importantly) Why?
