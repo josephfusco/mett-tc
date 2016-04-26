@@ -29,6 +29,4 @@ gems:
   - jekyll-redirect-from
   
 # Markdown  
-markdown: redcarpet
-redcarpet:
-    extensions: [with_toc_data]
+markdown: kramdown
