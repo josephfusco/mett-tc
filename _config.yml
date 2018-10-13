@@ -27,6 +27,6 @@ sass:
 # Plugins
 gems:
   - jekyll-redirect-from
-  
-# Markdown  
+
+# Markdown
 markdown: kramdown
